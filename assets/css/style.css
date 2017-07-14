@@ -187,6 +187,7 @@ button[type="submit"] {
 }
 
 
+
 }
 .pdt .boxed-btn {
     margin-top: 15px;
@@ -204,6 +205,7 @@ button[type="submit"] {
     margin: 0;
 }
 
+
 /* ====================================
  Header CSS
 =================================== */
@@ -220,6 +222,7 @@ button[type="submit"] {
 .header_absolute .main_menu ul li a {
     color: #fff;
 }
+
 
 /* ====================================
  Mainmenu CSS
@@ -308,6 +311,7 @@ button[type="submit"] {
     visibility: visible;
 }
 
+
 /* ====================================
 Breadcroumb CSS
 =================================== */
@@ -386,6 +390,7 @@ Breadcroumb CSS
 .breadcroumb-bg-contact-v2 {
     background-image: url(../img/contact-us-slide2.jpg);
 }
+
 
 
 
@@ -477,6 +482,7 @@ Hero Area CSS
     z-index: -1;
 }
 
+
 /* ====================================
 Slide CSS
 =================================== */
@@ -557,12 +563,14 @@ Slide CSS
     background: #06d6a0;
 }
 
+
 /* ====================================
  Section Title CSS
 =================================== */
 .section-title {
     margin-bottom: 90px;
 }
+
 
 /* ====================================
  Services CSS
@@ -702,6 +710,7 @@ services-v1.footer-area ul.social-link li a {
     margin-bottom: 15px;
 }
 
+
 /* ====================================
 Tile-gallery CSS
 =================================== */
@@ -719,6 +728,7 @@ Tile-gallery CSS
     left: 0;
 }
 
+
 /* ====================================
 About CSS
 =================================== */
@@ -733,6 +743,7 @@ About CSS
 .about-text {
     margin-top: 50px;
 }
+
 
 /* ====================================
 Case Study CSS
@@ -944,6 +955,7 @@ a.case-study-more {
     margin: 25px 0;
 }
 
+
 /* ====================================
 Blog CSS
 =================================== */
@@ -1027,6 +1039,7 @@ Blog CSS
     line-height: 1.6;
 }
 
+
 }
 .single_blog_box p:last-child {
     margin: 0;
@@ -1080,6 +1093,7 @@ Blog CSS
     margin-bottom: 30px;
 }
 
+
 /* ====================================
 OwlCarousel CSS
 =================================== */
@@ -1100,6 +1114,7 @@ OwlCarousel CSS
 .theme-2 .owl-dots div.active {
     background: #06d6a0;
 }
+
 
 /* ====================================
 Testimonial CSS
@@ -1215,6 +1230,7 @@ Testimonial CSS
     opacity: 1;
     visibility: visible;
 }
+
 
 /* ====================================
 Call To Action CSS
@@ -1367,8 +1383,13 @@ Call To Action CSS
     background-position: center;
 }
 
-.cta-area.theme-5.pricing-cta{background-image: url(../img/pricing-cta-img.jpg);}
-.map{background-image: url(../img/map.jpg);}
+.cta-area.theme-5.pricing-cta {
+    background-image: url(../img/pricing-cta-img.jpg);
+}
+.map {
+    background-image: url(../img/map.jpg);
+}
+
 
 
 
@@ -1389,6 +1410,7 @@ Logo Carousel CSS
 .single-logo-item:hover {
     opacity: 1;
 }
+
 
 /* ====================================
 Pricing CSS
@@ -1475,37 +1497,36 @@ Pricing CSS
 
 
 
+
 /* ====================================
 Contact-us CSS
 =================================== */
-
-
-.contact-form
-  input, .contact-form
-  textarea {
+.contact-form input,
+.contact-form textarea {
     width: 100%;
     margin-bottom: 25px;
     background-color: #fafafa;
 }
 
-.contact-form
- input[type="submit"] {
+.contact-form input[type="submit"] {
     width: auto;
 }
 
 .contact-form textarea {
     height: 200px;
-
 }
-.contact-fom-heading{margin-top: 20px;}
-.contact-fom-heading p{margin: 25px 0;}
+.contact-fom-heading {
+    margin-top: 20px;
+}
+.contact-fom-heading p {
+    margin: 25px 0;
+}
 
 
 .single-address-queue {
     margin-top: 35px;
     padding-left: 40px;
     position: relative;
-
 }
 
 .address-icon {
@@ -1520,6 +1541,7 @@ Contact-us CSS
 .single-address-queue p {
     margin: 0;
 }
+
 
 
 
@@ -1674,4 +1696,49 @@ Footer CSS
 }
 .theme-4 ul li a:hover {
     color: #06d6a0;
+}
+
+
+.traffic-faq .panel-default>.panel-heading {
+    background-color: transparent;
+}
+
+.traffic-faq .panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border-top-width: 0px;
+}
+
+.traffic-faq.panel-group .panel+.panel {
+    margin-top: -0.6px;
+    box-shadow: 0 0 0;
+}
+
+.traffic-faq .panel-heading a {
+    color: #373773;
+    font-weight: 600;
+    font-size: 15px;
+    display: block;
+    padding: 15px;
+    position: relative;
+}
+
+.traffic-faq .panel-heading {
+    padding: 0;
+}
+
+.traffic-faq a:focus {
+    text-decoration: none;
+}
+.traffic-faq.panel-group .panel {
+    border-radius: 3px;
+}
+.traffic-faq .panel-heading a[aria-expanded="true"]:after {
+    content: "-";
+    font-size: 35px;
+    margin-top: -15px;
+}
+.traffic-faq .panel-heading a:after {
+    content: "+";
+    float: right;
+    font-size: 25px;
+    margin-top: -6px;
 }
