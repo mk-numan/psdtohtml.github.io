@@ -1,0 +1,64 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800');
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+background-color:#000000;
+ font-family: 'Khula', sans-serif;
+}
+a:hover { text-decoration: none }
+
+.services-box{height: 550px;
+    border: 1px solid #ccc;
+    transform: scale(.9);
+    transition: .5s;
+    opacity: .5;
+
+}
+
+.bg-1{background-image: url(../img/bg-1.jpg);}
+
+.bg-2{background-image: url(../img/bg-2.jpg);}
+.bg-3{background-image: url(../img/bg-3.jpg);}
+.bg-4{background-image: url(../img/bg-4.jpg);}
+
+.bg-1, .bg-2, .bg-3{
+    background-size: cover;
+    background-repeat: no-repeat;}
+
+.services-box:hover {
+    transform: scale(1);
+    opacity: 1;
+}
+
+
+.heading {
+    color: #06d6a0;
+    text-align: center;
+    padding-top: 30px;;
+}
