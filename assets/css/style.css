@@ -188,6 +188,8 @@ button[type="submit"] {
 
 
 
+
+
 }
 .pdt .boxed-btn {
     margin-top: 15px;
@@ -204,6 +206,13 @@ button[type="submit"] {
 .heading-margin-0 {
     margin: 0;
 }
+
+
+
+
+
+
+
 
 
 /* ====================================
@@ -224,6 +233,8 @@ button[type="submit"] {
 }
 
 
+
+
 /* ====================================
  Mainmenu CSS
 =================================== */
@@ -240,6 +251,10 @@ button[type="submit"] {
     color: #888888;
     display: block;
     padding: 12px 15px;
+}
+
+.main_menu ul li:hover>a {
+    color: #ef476f;
 }
 .off-canvas-menu {
     position: fixed;
@@ -312,19 +327,11 @@ button[type="submit"] {
 }
 
 
-
-
-
-
-
-.main_menu ul li {
-    position: relative;
-}
-
+/*dropdown-menu-css*/
 .main_menu ul li ul {
     position: absolute;
-    left: -20px;
-    top: 40px;
+    left: 0px;
+    top: 60px;
     width: 150px;
     z-index: 9;
     opacity: 0;
@@ -340,20 +347,40 @@ button[type="submit"] {
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: left;
+    background: #ef476f;
+    color: #fff;
 }
+
+.main_menu ul ul li ul {
+    left: 150px;
+}
+
 
 .main_menu ul li:hover ul {
     opacity: 1;
     visibility: visible;
-    left:0;
+    top: 45px;
 }
 
-.main_menu ul li:hover > a{
-    color:#ef476f;
+
+.main_menu li:hover ul ul {
+    visibility: hidden;
+    opacity: 0
 }
-.main_menu ul li > a{
+
+
+.main_menu ul ul li:hover>ul {
+    top: 0;
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.main_menu ul li>a,
+.main_menu ul li ul li>a {
     transition: .3s;
 }
+
 
 
 
@@ -450,6 +477,8 @@ Breadcroumb CSS
 
 
 
+
+
 /* ====================================
 Hero Area CSS
 =================================== */
@@ -537,6 +566,8 @@ Hero Area CSS
 }
 
 
+
+
 /* ====================================
 Slide CSS
 =================================== */
@@ -618,12 +649,16 @@ Slide CSS
 }
 
 
+
+
 /* ====================================
  Section Title CSS
 =================================== */
 .section-title {
     margin-bottom: 90px;
 }
+
+
 
 
 /* ====================================
@@ -765,6 +800,8 @@ services-v1.footer-area ul.social-link li a {
 }
 
 
+
+
 /* ====================================
 Tile-gallery CSS
 =================================== */
@@ -783,6 +820,8 @@ Tile-gallery CSS
 }
 
 
+
+
 /* ====================================
 About CSS
 =================================== */
@@ -797,6 +836,8 @@ About CSS
 .about-text {
     margin-top: 50px;
 }
+
+
 
 
 /* ====================================
@@ -1010,6 +1051,8 @@ a.case-study-more {
 }
 
 
+
+
 /* ====================================
 Blog CSS
 =================================== */
@@ -1094,6 +1137,8 @@ Blog CSS
 }
 
 
+
+
 }
 .single_blog_box p:last-child {
     margin: 0;
@@ -1148,6 +1193,8 @@ Blog CSS
 }
 
 
+
+
 /* ====================================
 OwlCarousel CSS
 =================================== */
@@ -1168,6 +1215,8 @@ OwlCarousel CSS
 .theme-2 .owl-dots div.active {
     background: #06d6a0;
 }
+
+
 
 
 /* ====================================
@@ -1284,6 +1333,8 @@ Testimonial CSS
     opacity: 1;
     visibility: visible;
 }
+
+
 
 
 /* ====================================
@@ -1447,6 +1498,8 @@ Call To Action CSS
 
 
 
+
+
 /* ====================================
 Logo Carousel CSS
 =================================== */
@@ -1464,6 +1517,8 @@ Logo Carousel CSS
 .single-logo-item:hover {
     opacity: 1;
 }
+
+
 
 
 /* ====================================
@@ -1552,6 +1607,8 @@ Pricing CSS
 
 
 
+
+
 /* ====================================
 Contact-us CSS
 =================================== */
@@ -1595,6 +1652,8 @@ Contact-us CSS
 .single-address-queue p {
     margin: 0;
 }
+
+
 
 
 
