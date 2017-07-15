@@ -312,6 +312,60 @@ button[type="submit"] {
 }
 
 
+
+
+
+
+
+.main_menu ul li {
+    position: relative;
+}
+
+.main_menu ul li ul {
+    position: absolute;
+    left: -20px;
+    top: 40px;
+    width: 150px;
+    z-index: 9;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+
+.main_menu ul li ul li {
+    display: block;
+}
+
+.main_menu ul li ul li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.main_menu ul li:hover ul {
+    opacity: 1;
+    visibility: visible;
+    left:0;
+}
+
+.main_menu ul li:hover > a{
+    color:#ef476f;
+}
+.main_menu ul li > a{
+    transition: .3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* ====================================
 Breadcroumb CSS
 =================================== */
@@ -1714,7 +1768,7 @@ Footer CSS
 
 .traffic-faq .panel-heading a {
     color: #373773;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 15px;
     display: block;
     padding: 15px;
