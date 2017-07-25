@@ -609,7 +609,7 @@ Hero Area CSS
     border-radius: 3px;
 }
 .hero-form input[type="submit"] {
-    width: 135px;
+    width: auto;
     margin: 0 auto;
     display: block;
     margin-top: 35px;
@@ -635,26 +635,52 @@ Hero Area CSS
     z-index: -1;
 }
 
-.contact-form.hero-form {
+
+.qoute-contact-form {
     background: #fff;
-    color: #999999;
+    text-align: center;
+    box-shadow: -2px 0 5px 0 #f3f3f3;
     padding: 30px;
-    border-radius: 3px;
     position: relative;
-    box-shadow: 0 0 5px #cccccc;
+    border-radius: 3px;
+
 }
 
-.contact-form.hero-form:after {
-    content: "";
+.qoute-contact-form input {
+    width: 100%;
+}
+
+.qoute-contact-form:after {
+    content: '';
+    background: #f3f3f3;
     position: absolute;
+    top: 8px;
+    left: 8px;
     width: 100%;
     height: 100%;
-    left: 0;
-    top: 0;
-    box-shadow: 0 0 5px #cccccc;
-    background-color: #cccccc;
+    z-index: -1;
+    opacity: .7;
+    border-radius: 3px;
 }
 
+.qoute-form-header h3 {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.qoute-form-header {
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.qoute-form-wrapper input[type="submit"] {
+    width: auto;
+    margin-top: 30px;
+    margin-bottom: -30px;
+}
+
+.qoute-form-wrapper p {padding: 5px 0;}
 
 
 
@@ -1761,10 +1787,10 @@ Contact-us CSS
 .contact-form textarea {
     height: 200px;
 }
-.contact-fom-heading {
+.contact-form-heading {
     margin-top: 20px;
 }
-.contact-fom-heading p {
+.contact-from-heading p {
     margin: 25px 0;
 }
 
