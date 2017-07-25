@@ -1,0 +1,88 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .boxed-btn,
+    input[type="submit"],
+    button[type="submit"] {
+        font-size: 13px;
+        padding: 13px 12px;
+    }
+    .single-service-box {
+        padding: 15px;
+    }
+
+    .single-service-2 {
+        height: 220px;
+    }
+    .single-case-study {
+        height: 280px
+    }
+
+    .hero_area h1 {
+        font-size: 40px;
+    }
+
+    .slide-item-wrapper h2 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .pdt-50 {
+        padding-top: 30px;
+    }
+
+
+    .blog-bg-1,
+    .blog-bg-2,
+    .blog-bg-3,
+    .blog-bg-4,
+    .blog-bg-5,
+    .blog-bg-6,
+    .blog-bg-7,
+    .blog-bg-8,
+    .blog-bg-9 {
+        height: 200px;
+        margin-bottom: 20px;
+        margin-left: -20px;
+        margin-top: -20px;
+        margin-right: -20px;
+    }
+    .single_blog_box {
+        padding: 20px;
+    }
+    .service-section {
+        padding-top: 30px;
+    }
+    .service-section:before {
+        top: -45px;
+        width: 48%;
+    }
+
+    .boxed-case-study .single-case-study {
+        height: 220px;
+    }
+    .contact-form-heading {
+        margin-top: 12px;
+    }
+    .contact-form input,
+    .contact-form textarea {
+        margin-bottom: 15px;
+    }
+}
+
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {}
+
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
