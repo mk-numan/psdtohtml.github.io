@@ -14,6 +14,10 @@
             autoplayTimeout: 5000,
             smartSpeed: 600,
         });
+
+
+
+
         $(".case-studies-carousel").owlCarousel({
 
             loop: true,
@@ -23,8 +27,23 @@
             dots: true,
             autoplay: true,
             autoplayTimeout: 5000,
-            items: 3,
+            responsive: {
+
+                0: {
+                    items: 1,
+                },
+
+                768: {
+                    items: 2,
+                },
+
+                992: {
+                    items: 3
+                }
+            }
         });
+
+
 
         $(".testimonial-carousel").owlCarousel({
             items: 1,
@@ -38,14 +57,28 @@
         });
 
         $(".logo-carousel").owlCarousel({
-            items: 6,
             loop: true,
             dots: false,
             nav: false,
             autoplay: true,
             autoplayTimeout: 5000,
             smartSpeed: 600,
+            responsive: {
+
+                0: {
+                    items: 2,
+                },
+
+                768: {
+                    items: 4,
+                },
+
+                992: {
+                    items: 6
+                }
+            }
         });
+
 
 
         $(".menu-trigger").on('click', function() {

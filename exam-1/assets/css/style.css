@@ -1803,7 +1803,7 @@ Contact-us CSS
 
 .address-icon {
     position: absolute;
-    top: 0;
+    top: -7px;
     left: 0;
     color: #30d08c;
     font-size: 26px;
@@ -1813,6 +1813,9 @@ Contact-us CSS
 .single-address-queue p {
     margin: 0;
 }
+.contact-fom-heading, {margin-top: 20px;}
+.contact-fom-heading
+p{margin-bottom: 20px;}
 
 
 
